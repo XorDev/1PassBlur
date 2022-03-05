@@ -31,7 +31,7 @@ void main()
 	//Radius iteration variable
 	float rad = 1.;
 	//Golden angle rotation matrix
-	mat2 ang = mat2(0.6754904, 0.7373688, -0.7373688, 0.6754904);
+	mat2 ang = mat2(-0.7373688, -0.6754904, 0.6754904,  -0.7373688);
 	
 	//Look through all the samples
 	for(float i = 0.;i<SAMPLES;i++)
